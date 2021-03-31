@@ -11,10 +11,10 @@ def main():
     parser = MyHTMLParser()
     parser.feed(html)
     
-    laditude = parser.lad
+    latitude = parser.lad
     longitude = parser.long
     
-    print("\nLaditude : ", laditude)
+    print("\nLatitude : ", latitude)
     print("Longitude : ", longitude)
     
 main();
